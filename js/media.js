@@ -35,7 +35,7 @@ if(media === 0){
  mensagem = "Notão! Sua média é" + media;
 }else if (media ===10){
  mensagem = "Hoje é seu aniversário? Pq você tá de parabéns! 10 de média";
-}     
+    
       // evite mexer na linha de código abaixo!
   document.getElementById("situacaoAluno").innerHTML = mensagem;
 }

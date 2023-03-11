@@ -47,6 +47,8 @@
           <p class="resultado">Resultado: <b id="resultadoDiv"></b></p>
         </section>
 
+        <! -- Alterado input inserido  min = "0" oninput="validity.valid||(value='');-->
+        
         <section id="projeto2">
           <h2>Calculadora de Médias</h2>
 
@@ -54,22 +56,22 @@
             <div id="notas">
               <div class="nota">
                 <label for="nota1">Nota 1</label>
-                <input class="inputNota" id="nota1" type="number" required />
+                <input class="inputNota" id="nota1" type="number" min = "0" max = "10" oninput="validity.valid||(value='');" required />
               </div>
 
               <div class="nota">
                 <label for="nota2">Nota 2</label>
-                <input class="inputNota" id="nota2" type="number" required />
+                <input class="inputNota" id="nota2" type="number" min = "0" max = "10" oninput="validity.valid||(value='');" required />
               </div>
 
               <div class="nota">
                 <label for="nota3">Nota 3</label>
-                <input class="inputNota" id="nota3" type="number" required />
+                <input class="inputNota" id="nota3" type="number" min = "0" max = "10" oninput="validity.valid||(value='');" required />
               </div>
 
               <div class="nota">
                 <label for="nota4">Nota 4</label>
-                <input class="inputNota" id="nota4" type="number" required />
+                <input class="inputNota" id="nota4" type="number" min = "0" max = "10" oninput="validity.valid||(value='');"  required />
               </div>
             </div>
 
